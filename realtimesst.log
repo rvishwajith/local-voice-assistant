@@ -1,0 +1,85 @@
+2025-06-02 14:12:16.199 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-06-02 14:12:16.204 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-06-02 14:13:08.398 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-06-02 14:13:08.403 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-06-02 14:13:08.406 - RealTimeSTT: realtimestt - ERROR - Wakeword engine  unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-06-02 14:13:08.407 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-06-02 14:13:08.407 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-06-02 14:13:08.726 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-06-02 14:13:08.726 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-06-02 14:13:08.726 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-06-02 14:13:10.120 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-06-02 14:13:10.121 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-06-02 14:13:30.040 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-06-02 14:13:30.041 - RealTimeSTT: realtimestt - INFO - None
+2025-06-02 14:13:32.646 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-06-02 14:13:32.651 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-06-02 14:13:32.653 - RealTimeSTT: realtimestt - ERROR - Wakeword engine  unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-06-02 14:13:32.654 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-06-02 14:13:32.654 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-06-02 14:13:32.859 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-06-02 14:13:32.860 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-06-02 14:13:32.860 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-06-02 14:13:34.304 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-06-02 14:13:34.305 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-06-02 14:13:56.921 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-06-02 14:13:56.922 - RealTimeSTT: realtimestt - INFO - None
+2025-06-02 14:13:59.596 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-06-02 14:13:59.601 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-06-02 14:13:59.604 - RealTimeSTT: realtimestt - ERROR - Wakeword engine  unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-06-02 14:13:59.605 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-06-02 14:13:59.605 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-06-02 14:13:59.806 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-06-02 14:13:59.806 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-06-02 14:13:59.806 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-06-02 14:14:01.509 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-06-02 14:14:01.509 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-06-02 14:16:26.749 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-06-02 14:16:31.130 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-06-02 14:16:31.134 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-06-02 14:16:39.537 - RealTimeSTT: realtimestt - INFO - Successfully loaded openwakeword model: alexa
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - INFO - Successfully loaded openwakeword model: hey_mycroft
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - INFO - Successfully loaded openwakeword model: hey_jarvis
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - INFO - Successfully loaded openwakeword model: hey_rhasspy
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - INFO - Successfully loaded openwakeword model: timer
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - INFO - Successfully loaded openwakeword model: weather
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - DEBUG - Open wake word detection engine initialized successfully
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-06-02 14:16:39.538 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-06-02 14:16:39.733 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-06-02 14:16:39.733 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-06-02 14:16:39.733 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-06-02 14:16:39.733 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-06-02 14:16:39.733 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-06-02 14:17:46.423 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-06-02 14:17:50.628 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-06-02 14:17:50.633 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-06-02 14:17:50.637 - RealTimeSTT: realtimestt - ERROR - Error initializing porcupine wake word detection engine: dlopen(/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib, 0x0006): tried: '/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib' (no such file), '/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64')). Wakewords: ['computer'].
+Traceback (most recent call last):
+  File "/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/RealtimeSTT/audio_recorder.py", line 837, in __init__
+    self.porcupine = pvporcupine.create(
+                     ~~~~~~~~~~~~~~~~~~^
+        keywords=self.wake_words_list,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        sensitivities=self.wake_words_sensitivities
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/__init__.py", line 64, in create
+    return Porcupine(
+        library_path=library_path,
+        model_path=model_path,
+        keyword_paths=keyword_paths,
+        sensitivities=sensitivities)
+  File "/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/porcupine.py", line 60, in __init__
+    library = cdll.LoadLibrary(library_path)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ctypes/__init__.py", line 471, in LoadLibrary
+    return self._dlltype(name)
+           ~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ctypes/__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+OSError: dlopen(/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib, 0x0006): tried: '/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib' (no such file), '/Users/rohithvishwajith/Documents/local-llm-home-assistant/realtime-tests/.venv/lib/python3.13/site-packages/pvporcupine/lib/mac/x86_64/libpv_porcupine.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64'))
