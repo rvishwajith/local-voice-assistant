@@ -1,7 +1,13 @@
 # A fully-local, open-source voice assistant.
 A local voice assistant I'm working on using whisper / whisper-live and realtime-stt for realtime speech transcription, local LLM interfacing via Haystack, and realtime-tts for spoken responses. Some test files with speech transcription and wake work detection using openwakeword are available. Ensure all of the prerequisite libraries are installed.
 
-Once speech recognition is more accurate, feed the transcribed voice input into a local LLM (1.5B for lower-end / non-cuda devices) and provide a list of compatible devices and commands.
+Once speech recognition is more accurate, feed the transcribed voice input into a local LLM (probably Qwen 1.5B for lower-end / non-cuda devices) and provide a list of compatible devices and commands.
+
+Every part of this will probably run much better on:
+- Best: A CUDA device with a dedicated GPU and at least 4GB VRAM (preferably 8+)
+- Good: An ARM device with at least 12GB shared RAM.
+- Ok: A device with a dedicated AMD GPU will be slower regardless of GPU power, because CUDA is not supported.
+- Bad: A non-ARM CPU-only device / a device with integrated graphics.
 
 Have the LLM handle listing functions and paramaters, i.e.:
 1. Human: [says something with openwakeword keyword]
