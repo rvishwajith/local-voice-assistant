@@ -3,11 +3,22 @@ A local voice assistant I'm working on using whisper / whisper-live and realtime
 
 Once speech recognition is more accurate, feed the transcribed voice input into a local LLM (probably Qwen 1.5B for lower-end / non-cuda devices) and provide a list of compatible devices and commands.
 
+## Dependencies
+Make sure the following are installed in your python environment:
+ffmpeg
+realtime-stt (pip3 install RealtimeSTT)
+openwakeword (pip3 install OpenWakeWord)
+pywizlight (pip3 install pywizlight)
+
+## Performance
+
 Every part of this will probably run much better on:
 - Best: A CUDA device with a dedicated GPU and at least 4GB VRAM (preferably 8+)
 - Good: An ARM device with at least 12GB shared RAM.
 - Ok: A device with a dedicated AMD GPU will be slower regardless of GPU power, because CUDA is not supported.
 - Bad: A non-ARM CPU-only device / a device with integrated graphics.
+
+## How it works
 
 Have the LLM handle listing functions and paramaters, i.e.:
 1. Human: [says something with openwakeword keyword]

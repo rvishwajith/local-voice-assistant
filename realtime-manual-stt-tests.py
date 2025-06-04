@@ -10,6 +10,12 @@
 #
 # source .venv/bin/activate
 # python3 test.py
+# 
+# Make sure the following are installed in the environment:
+# ffmpeg
+# realtime-stt (pip3 install RealtimeSTT)
+# openwakeword (pip)
+# pywizlight (pip)
 
 from RealtimeSTT import AudioToTextRecorder
 

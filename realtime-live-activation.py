@@ -6,7 +6,7 @@ def process_text(text):
 
 if __name__ == '__main__':
     print("Wait until it says 'speak now'")
-    recorder = AudioToTextRecorder(realtime_model_type="small.en")
+    recorder = AudioToTextRecorder(realtime_model_type="large.en")
 
     while True:
         recorder.text(process_text)
